@@ -27,7 +27,7 @@ class App extends Component {
     }
  
     return(
-      <div>
+      <div id='container'>
         <h1>QR Code Rewards</h1>
         <QrReader
           delay={this.state.delay}
@@ -35,7 +35,7 @@ class App extends Component {
           onError={this.handleError}
           onScan={this.handleScan}
           />
-        <p>{this.state.result}</p>
+        <p id='qrname'>{this.state.result}</p>
         <button>Save this QR code</button>
       </div>
     )

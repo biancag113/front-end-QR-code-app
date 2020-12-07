@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+#container {
+  background-color: rgb(41, 52, 63);
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +39,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  text-align: center;  
+  margin: 5x;
+  font-family: futura;
+  color: white;
+}
+
+button {
+  margin:0 auto;
+  display:block;
+  border-radius: 5px;
+  color: white;
+  background-color: #faa02b;
+  padding: 10px
+}
+
+#qrname {
+  margin:0 auto;
+  display:block;
+  color: white;
+  font-family: futura;
+  font-size: medium;
 }
