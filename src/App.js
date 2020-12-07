@@ -22,8 +22,10 @@ class App extends Component {
   }
   render(){
     const previewStyle = {
+      justifyContent: "center",
+      alignItems: "center",
       height: 300,
-      width: 1000,
+      width: 300,
     }
  
     return(
